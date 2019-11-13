@@ -12,7 +12,7 @@ public class Exmaple {
 		
 		// we want hold data of 
 		
-		// dataype variable_name
+		// datatype variable_name
 		int number;
 		number = 10;
 		int numbers = 15;
@@ -62,6 +62,8 @@ public class Exmaple {
 		
 		balance2 = balance2 + deposit;
 		System.out.println("new balance = $" + balance2);
+		
+		
 		
 		
 		
