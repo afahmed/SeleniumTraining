@@ -28,16 +28,17 @@ public class doWhileLoop {
 		
 		do {
 		
-			userpass = scan.nextLine();
+			
 			
 //			if(attempCount == 1) {
 //				System.out.println("you have one more try left");
 //			}
 			
-			if(attempCount == 2) {
+			if(attempCount == 3) {
 				System.out.println("reached the max number of attempts!");
 				break;
 			}
+			userpass = scan.nextLine();
 			
 			attempCount++;
 			
