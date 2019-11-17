@@ -44,7 +44,18 @@ public class doWhileLoop {
 			
 		} while (!password.equalsIgnoreCase(userpass));
 		
-		System.out.println("end of program!!!!");
+//		System.out.println("end of program!!!!");
+		
+		// if user enters correct password, print welcome
+		// if user reaches max number of attempts, print password is locked
+		
+		if(userpass.equalsIgnoreCase(password)) {
+			System.out.println("Welcome!!!");
+		}
+		
+		if((attempCount == 3) && (!userpass.equalsIgnoreCase(password))) {
+			System.out.println("Password is lockd :( ");
+		}
 
 	}
 
