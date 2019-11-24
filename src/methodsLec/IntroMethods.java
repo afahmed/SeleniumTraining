@@ -12,9 +12,46 @@ public class IntroMethods { // start of the class
 		
 		printStudentNames("Ali", "Suman", "Shuriye");
 		
+		
+		// method call
 		addNumbers(4,8);
+		
+		// method call
+		double operationResult = mathOperation(2, 3, '-');
+		System.out.println("The result is " + operationResult);
+		
+		operationResult = mathOperation(5,10, '+');
+		System.out.println("The result is " + operationResult);
+		
+		operationResult = mathOperation(5,10, 'u');
+		System.out.println("The result is " + operationResult);
 
 	} //main method ends
+	
+	// lets write a method that takes three parameters
+	// it will to operands and one operators and perform operation given 
+	// the operator
+	// return the result
+	
+	public static double mathOperation(double num1, double num2, char operator) {
+		
+		double result = 0;
+		if(operator == '+') {
+			result = num1 + num2;
+		} else if(operator == '-') {
+			result = num1 - num2;
+		} else if(operator == '*') {
+			//body
+			result = num1 * num2;
+		} else if(operator == '/') {
+			result = num1 / num2;
+		} else {
+			System.out.println("unknown math operator");
+		}
+		
+		
+		return result;
+	}
 	
 	
 	// lets write a method that will take two whole numbers and add them,
@@ -25,7 +62,7 @@ public class IntroMethods { // start of the class
 		
 		int result = num1 + num2;
 		
-		System.out.println(result);
+		System.out.println(num1 + " added to " + num2 + " equals to " +  result);
 	}
 	
 	
