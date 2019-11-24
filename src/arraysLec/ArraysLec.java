@@ -30,6 +30,7 @@ public class ArraysLec {
 		}
 		
 		int[] numbers = {1, 2, 3, 4, 5};
+		// print numbers using for loop
 	}
 
 }
