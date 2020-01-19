@@ -7,5 +7,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/SeleniumStuff/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/SeleniumStuff/jcommander-1.78.jar"/>
+	<classpathentry kind="lib" path="C:/SeleniumStuff/testng-7.0.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

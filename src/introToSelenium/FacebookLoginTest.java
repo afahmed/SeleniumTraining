@@ -3,15 +3,16 @@ package introToSelenium;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class FacebookLoginTest {
 
 	public static void main(String[] args) {
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\SeleniumStuff\\chromedriver.exe");
+		System.setProperty("webdriver.gecko.driver", "C:\\SeleniumStuff\\geckodriver.exe");
 
 		WebDriver driver;
-		driver = new ChromeDriver();
+		driver = new FirefoxDriver();
 		
 		// launch the application
 		String baseURL = "https://www.facebook.com/";
