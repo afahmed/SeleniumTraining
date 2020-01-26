@@ -55,10 +55,18 @@ public class IntroToTestNG {
 		// 6. css
 		// 7. tag
 		// 8. xpath  (used most)
+		
+		
+		
 		// by id
 		
 		driver.get("https://formy-project.herokuapp.com/form");
-		driver.findElement(By.id("first-name")).sendKeys("Ahmed Ali");
+		//driver.findElement(By.id("first-name")).sendKeys("Ahmed Ali");
+		
+		driver.findElement(By.xpath("//input[@id='first-name']")).sendKeys("Ahmed Farah");
+		
+		// by name
+		
 	}
 	
 //	@Test // test annotation
